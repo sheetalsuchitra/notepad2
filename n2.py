@@ -1,6 +1,6 @@
 import pyautogui as pg
 import time
-pyautogui.FAILSAFE = False
+pg.FAILSAFE = False
 
 pg.moveTo(722,54)
 pg.click(722,54)
